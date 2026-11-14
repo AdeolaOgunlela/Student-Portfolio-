@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Academic Planner</h1>
+        <p>Organise your academic activities</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="planner.html">Academic Planner</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Add a New Task</h2>
+
+            <label for="taskInput">Task Description</label>
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter your academic task">
+
+            <label for="taskDate">Deadline</label>
+            <input type="date" id="taskDate">
+
+            <button type="button" id="addButton">
+                Add Task
+            </button>
+        </section>
+
+        <section>
+            <h2>My Academic Tasks</h2>
+
+            <p id="taskCount">Pending tasks: 0</p>
+
+            <ul id="taskList"></ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Adeola Ogunlela</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
